@@ -16,7 +16,7 @@ const Add = () => {
     })
 
     
-    const url= "http://localhost:4000";
+    const url= "https://food-app-backend-3joc.onrender.com";
 
 
     const handlerchang = (e)=>{
