@@ -1,0 +1,16 @@
+@media (max-width:700px){
+    #list{
+        width: 100%;
+        overflow-x: scroll;
+        z-index: 10;
+        margin: 0px 3px;
+    }
+    #same{
+        width: 90vw;
+        position: relative;
+
+    }
+    #same1{
+        width: 70%;
+    }
+}

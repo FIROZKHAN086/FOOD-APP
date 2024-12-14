@@ -1,0 +1,18 @@
+@media (max-width:700px) {
+    body{
+        overflow-x: hidden;
+    }
+ form{
+    display: flex;
+    flex-direction: column;
+ }   
+ #form{
+    width: 100%;
+
+ }
+ #fex{
+   display: flex;
+   flex-direction: column;
+ 
+}
+}

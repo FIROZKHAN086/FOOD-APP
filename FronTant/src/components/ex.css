@@ -1,0 +1,47 @@
+#list::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width:650px){
+    #menu{
+        margin: 0px 1px;
+        position: relative;
+        left: 3%;
+        right: 3%;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+        
+    }
+    #menu p{
+        width: 80%;
+    }
+    #list{
+        margin: 0px 10px;
+        width: 95%;
+
+    }
+    #list div{
+        width: screen;
+    }
+}
+#drop1{
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+    
+
+#drop:hover #drop1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #242424;
+    padding: 12px 25px;
+    border-radius: 14px;
+    border: 1px solid tomato;
+    outline: 2px solid wheat;
+    list-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,174 @@
+same the all catgory is complsari 
+
+1-/-roal
+2-/-sandwhich
+3-/-salad
+4-/-sweet
+5-/-nonveg
+6-/-cake
+7-/-pasta
+8-/-nodels
+9-/-burger
+10-/-chicken
+
+
+
+
+
+///{
+      _id: "2",
+      name: "Veg Salad",
+      image: food_2,
+      price: 18,
+      description: "Food provides essential nutrients for overall health and well-being.",
+      category: "Salad",
+    },
+    {
+      _id: "3",
+      name: "Chicken Roll",
+      image: food_3,
+      price: 25,
+      description: "A delicious roll packed with chicken and flavors.",
+      category: "Rolls",
+    },
+    {
+      _id: "4",
+      name: "Veg Roll",
+      image: food_4,
+      price: 20,
+      description: "A healthy and tasty roll filled with fresh vegetables.",
+      category: "Rolls",
+    },
+    {
+      _id: "4",
+      name: "Veg Roll",
+      image: food_4,
+      price: 20,
+      description: "A healthy and tasty roll filled with fresh vegetables.",
+      category: "Rolls",
+    },
+    {
+      _id: "4",
+      name: "Veg Roll",
+      image: food_4,
+      price: 20,
+      description: "A healthy and tasty roll filled with fresh vegetables.",
+      category: "Rolls",
+    },
+    {
+      _id: "5",
+      name: "Chocolate Cake",
+      image: food_5,
+      price: 30,
+      description: "Rich and moist chocolate cake for dessert lovers.",
+      category: "Desserts",
+    },
+    {
+      _id: "5",
+      name: "Chocolate Cake",
+      image: food_6,
+      price: 30,
+      description: "Rich and moist chocolate cake for dessert lovers.",
+      category: "Desserts",
+    },
+    {
+      _id: "6",
+      name: "Ice Cream Sundae Sweet",
+      image: food_7,
+      price :40,
+      description:'Rich and moist chocolate cake for dessert lovers.',
+      category : 'Sweet'
+    },
+    {
+      _id: "7",
+      name: "Ice Cream Sundae Sweet",
+      image: food_8,
+      price :40,
+      description:'Rich and moist chocolate cake for dessert lovers.',
+      category : 'Sweet'
+    },
+    {
+      _id: "8",
+      name: "Ice Cream Sundae",
+      image: food_9,
+      price :40,
+      description:'Rich and moist chocolate cake for dessert lovers.',
+      category : 'Sweet'
+    },
+    {
+      _id: "9",
+      name: "Ice Cream Sundae",
+      image: food_10,
+      price :40,
+      description:'Rich and moist chocolate cake for dessert lovers.',
+      category : 'Sweet'
+    },
+    {
+      _id: "10",
+      name: "Ice Cream Sundae",
+      image: food_11,
+      price :40,
+      description:'Rich and moist chocolate cake for dessert lovers.',
+      category : 'Sweet'
+    },
+
+
+
+
+
+
+    /////
+    {
+      menu_name: "NON-VEG",
+      menu_image: menu_2,
+    },
+    {
+      menu_name: "SWEET",
+      menu_image: menu_3,
+    },
+    {
+      menu_name: "Sandwich",
+      menu_image: menu_4,
+    },
+    {
+      menu_name: "CHICKEN",
+      menu_image: menu_5,
+    },
+    {
+      menu_name: "BURGER",
+      menu_image: menu_6,
+    },
+    {
+      menu_name:'NON-VEG',
+      menu_image:menu_7
+    },
+    {
+      menu_name:'PASTA',
+      menu_image:menu_8
+    },
+    {
+      menu_name:'NODELS',
+      menu_image:menu_9
+    },
+    {
+      menu_name:'CAKE',
+      menu_image:menu_10
+    }
+
+
+
+
+    <div classNameName="footer-section">
+      <h2>Subscribe</h2>
+      <form id="subscribe-form" onSubmit={sendEmail} >
+        <input
+            className='text-black'
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          name='name'
+          required
+        />
+        <button  type="submit">Subscribe</button>
+      </form>
+    </div>

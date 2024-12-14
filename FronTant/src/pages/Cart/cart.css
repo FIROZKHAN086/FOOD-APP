@@ -1,0 +1,35 @@
+@media (max-width:700px){
+    .cart{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    #fex{
+        display: flex;
+        flex-direction: column;
+        padding: 1px 12px;
+    }
+    #grid{
+        margin: 0;
+        position: relative;
+        left: 1px;
+        width: screen;
+    }
+    #grid div{
+        column-gap: 10px;
+
+    }
+    #promo{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    #promo input {
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    #promo button{
+        margin-top: 20px;
+
+    }
+}

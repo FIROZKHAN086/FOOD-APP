@@ -1,0 +1,27 @@
+@media (max-width:700px) {
+    #list{
+        width: screen;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    #list1{
+        display: flex;
+        flex-direction: column;
+        gap:15px ;
+        
+    }
+    #list1 input{
+        width: 100%;
+    }
+    #from{
+        width: screen;
+    }
+    #from div{
+        padding: 3px 8px;
+    }
+    #from button {
+        margin: auto;
+        width: 40%;
+    }
+}

@@ -1,0 +1,37 @@
+#head{
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/443/406/532/5c1c925cd8929-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 40vw;
+    margin: 30px auto;
+    
+
+}
+#hedd{
+    animation: anime  3s;
+}
+@media (max-width:700px){
+ #head {
+    height: 60vh;
+    width: 95vw;
+    padding: 0px 5rem;  
+ }
+ #head button {
+   background-color: black;
+   color: whitesmoke;
+ }
+ #hedd{
+    max-width: 100%;
+ }
+ #hedd h1{
+    font-size: 2rem;
+    width: 80%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #hedd p{
+    font-size: 10px;
+    width: 300px;
+ }
+}

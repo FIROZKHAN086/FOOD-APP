@@ -1,0 +1,16 @@
+a.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+}
+@media (max-width:700px) {
+    #sid{
+        width: 30%;
+        position: relative;
+        left: 0;
+        margin: 0px;
+        
+    }
+    #side{
+        padding-left: 7%;
+    }
+}
